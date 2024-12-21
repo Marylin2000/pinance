@@ -1,0 +1,9 @@
+
+
+.container{
+    background-image: url("../assets/pi_logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+
+}

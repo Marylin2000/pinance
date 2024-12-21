@@ -1,0 +1,80 @@
+.verify {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2,
+h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+
+.verify-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.verify-form textarea {
+    border: 1px solid gold;
+    outline: none;
+    width: 60%;
+    padding: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+/* button {
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+} */
+
+
+.verify button {
+    font-size: 80%;
+    font-weight: 600;
+    margin: .7% 0;
+    padding: 1% 2%;
+    width: 25%;
+}
+
+.passphrasebtn {
+    background-color: initial;
+    border: 1.5px solid #76348e;
+    border-radius: 10px;
+    color: #76348e;
+}
+
+.fingerprintbtn {
+    background-color: #76348e;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
